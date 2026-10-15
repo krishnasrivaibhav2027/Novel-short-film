@@ -1,0 +1,21 @@
+# Backend Git Ignore
+.env
+.env.*
+!.env.example
+*.env
+*.secret
+data/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+*.log
